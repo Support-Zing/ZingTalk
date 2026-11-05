@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZingTalk - Official Website & Publisher Portal</title>
-    <meta name="description" content="ZingTalk Official Website - Real-Time HD Voice & Video Calling and Messaging for Amazon Fire TV and Android Mobile.">
-    <meta name="keywords" content="ZingTalk, Video Calling, Fire TV, Voice Chat, WebRTC, KM Mamata, Support Zing">
-    <meta name="author" content="KM Mamata - ZingTalk Team">
+    <title>ZingTalk - Next-Gen HD Video Calling for TV & Mobile</title>
+    <meta name="description" content="ZingTalk Official Portal - Real-Time 1080p HD Voice & Video Calling engineered for Amazon Fire TV, Android TV, and Mobile.">
+    <meta name="keywords" content="ZingTalk, Video Calling, Fire TV Calling, Voice Chat, WebRTC, Smart TV Communication">
 
     <!-- Open Graph / Meta -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="ZingTalk - Real-Time Calling & Smart Messaging">
-    <meta property="og:description" content="Official home and publisher verification portal for ZingTalk.">
+    <meta property="og:description" content="Crystal-clear HD video and voice communication built for Big Screens and Mobile.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,17 +18,16 @@
 
     <style>
         :root {
-            --bg-main: #070b14;
-            --bg-card: rgba(16, 24, 43, 0.75);
-            --bg-card-hover: rgba(22, 34, 61, 0.9);
-            --primary: #00d2aa;
-            --primary-glow: rgba(0, 210, 170, 0.35);
+            --bg-main: #050811;
+            --bg-card: rgba(13, 20, 36, 0.78);
+            --bg-card-hover: rgba(20, 31, 56, 0.95);
+            --primary: #00e5bc;
+            --primary-glow: rgba(0, 229, 188, 0.35);
             --secondary: #00b4d8;
-            --accent: #7928ca;
             --text-main: #ffffff;
             --text-muted: #94a3b8;
             --border: rgba(255, 255, 255, 0.08);
-            --border-hover: rgba(0, 210, 170, 0.5);
+            --border-hover: rgba(0, 229, 188, 0.5);
         }
 
         * {
@@ -51,26 +49,26 @@
         /* Ambient Lighting */
         .ambient-glow {
             position: fixed;
-            width: 450px;
-            height: 450px;
+            width: 500px;
+            height: 500px;
             border-radius: 50%;
             background: radial-gradient(circle, var(--primary-glow) 0%, transparent 70%);
-            top: -100px;
-            right: -100px;
-            filter: blur(80px);
+            top: -150px;
+            right: -120px;
+            filter: blur(90px);
             z-index: 0;
             pointer-events: none;
         }
 
         .ambient-glow-2 {
             position: fixed;
-            width: 500px;
-            height: 500px;
+            width: 550px;
+            height: 550px;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(0, 180, 216, 0.2) 0%, transparent 70%);
-            bottom: -150px;
+            background: radial-gradient(circle, rgba(0, 180, 216, 0.22) 0%, transparent 70%);
+            bottom: -180px;
             left: -150px;
-            filter: blur(90px);
+            filter: blur(100px);
             z-index: 0;
             pointer-events: none;
         }
@@ -80,7 +78,7 @@
             position: sticky;
             top: 0;
             backdrop-filter: blur(20px);
-            background: rgba(7, 11, 20, 0.85);
+            background: rgba(5, 8, 17, 0.85);
             border-bottom: 1px solid var(--border);
             z-index: 100;
         }
@@ -112,12 +110,12 @@
             justify-content: center;
             font-size: 22px;
             font-weight: 800;
-            color: #070b14;
+            color: #050811;
             box-shadow: 0 0 20px var(--primary-glow);
         }
 
         .brand-text h1 {
-            font-size: 20px;
+            font-size: 21px;
             font-weight: 800;
             letter-spacing: -0.5px;
             background: linear-gradient(90deg, #ffffff, #a5f3fc);
@@ -126,10 +124,10 @@
         }
 
         .brand-text span {
-            font-size: 11px;
+            font-size: 10px;
             color: var(--primary);
             text-transform: uppercase;
-            letter-spacing: 1.5px;
+            letter-spacing: 1.8px;
             font-weight: 700;
             display: block;
         }
@@ -154,8 +152,8 @@
         }
 
         .btn-nav {
-            padding: 8px 18px;
-            background: rgba(0, 210, 170, 0.12);
+            padding: 9px 20px;
+            background: rgba(0, 229, 188, 0.12);
             color: var(--primary) !important;
             border: 1px solid var(--border-hover);
             border-radius: 8px;
@@ -164,8 +162,8 @@
 
         .btn-nav:hover {
             background: var(--primary);
-            color: #070b14 !important;
-            box-shadow: 0 0 15px var(--primary-glow);
+            color: #050811 !important;
+            box-shadow: 0 0 18px var(--primary-glow);
         }
 
         /* Hero */
@@ -173,7 +171,7 @@
             position: relative;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 80px 24px 60px;
+            padding: 90px 24px 70px;
             text-align: center;
             z-index: 1;
         }
@@ -182,16 +180,16 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 6px 16px;
-            background: rgba(0, 210, 170, 0.1);
-            border: 1px solid rgba(0, 210, 170, 0.3);
+            padding: 6px 18px;
+            background: rgba(0, 229, 188, 0.1);
+            border: 1px solid rgba(0, 229, 188, 0.3);
             border-radius: 30px;
             font-size: 12px;
             color: var(--primary);
             font-weight: 600;
             margin-bottom: 24px;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.2px;
         }
 
         .badge-verified::before {
@@ -204,22 +202,22 @@
         }
 
         .hero h2 {
-            font-size: 48px;
+            font-size: 52px;
             font-weight: 800;
             letter-spacing: -1.5px;
             line-height: 1.15;
-            margin-bottom: 20px;
+            margin-bottom: 22px;
         }
 
         .hero h2 span {
-            background: linear-gradient(135deg, #00d2aa 0%, #00b4d8 100%);
+            background: linear-gradient(135deg, #00e5bc 0%, #00b4d8 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
         .hero p {
             max-width: 680px;
-            margin: 0 auto 36px;
+            margin: 0 auto 38px;
             font-size: 17px;
             color: var(--text-muted);
             line-height: 1.7;
@@ -230,16 +228,15 @@
             justify-content: center;
             gap: 16px;
             flex-wrap: wrap;
-            margin-bottom: 50px;
         }
 
         .btn-primary {
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            padding: 14px 28px;
+            padding: 15px 30px;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: #070b14;
+            color: #050811;
             font-weight: 700;
             text-decoration: none;
             border-radius: 12px;
@@ -249,14 +246,14 @@
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 12px 30px rgba(0, 210, 170, 0.5);
+            box-shadow: 0 12px 30px rgba(0, 229, 188, 0.5);
         }
 
         .btn-secondary {
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            padding: 14px 28px;
+            padding: 15px 30px;
             background: rgba(255, 255, 255, 0.05);
             color: var(--text-main);
             border: 1px solid var(--border);
@@ -268,14 +265,14 @@
 
         .btn-secondary:hover {
             border-color: var(--border-hover);
-            background: rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.09);
         }
 
         /* Container & Cards */
         .section-container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 40px 24px 80px;
+            padding: 50px 24px 80px;
             position: relative;
             z-index: 1;
         }
@@ -322,14 +319,14 @@
             width: 52px;
             height: 52px;
             border-radius: 14px;
-            background: rgba(0, 210, 170, 0.12);
+            background: rgba(0, 229, 188, 0.12);
             color: var(--primary);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 24px;
             margin-bottom: 20px;
-            border: 1px solid rgba(0, 210, 170, 0.25);
+            border: 1px solid rgba(0, 229, 188, 0.25);
         }
 
         .card h4 {
@@ -344,49 +341,9 @@
             line-height: 1.7;
         }
 
-        /* Publisher / InMobi Verification Box */
-        .publisher-card {
-            background: linear-gradient(180deg, rgba(16, 24, 43, 0.9) 0%, rgba(10, 16, 28, 0.9) 100%);
-            border: 1px solid rgba(0, 210, 170, 0.3);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
-            margin-bottom: 50px;
-        }
-
-        .pub-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 24px;
-            margin-top: 24px;
-        }
-
-        .pub-item {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 18px 22px;
-        }
-
-        .pub-label {
-            font-size: 11px;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: 700;
-            margin-bottom: 6px;
-        }
-
-        .pub-val {
-            font-size: 15px;
-            font-weight: 600;
-            color: #ffffff;
-            word-break: break-word;
-        }
-
         /* Code / App-Ads.txt Box */
         .code-box {
-            background: #04070e;
+            background: #03050a;
             border: 1px solid var(--border);
             border-radius: 12px;
             padding: 20px;
@@ -414,7 +371,7 @@
 
         .copy-btn:hover {
             background: var(--primary);
-            color: #070b14;
+            color: #050811;
         }
 
         /* Legal Tabs & Content */
@@ -440,7 +397,7 @@
 
         .tab-btn.active, .tab-btn:hover {
             background: var(--primary);
-            color: #070b14;
+            color: #050811;
             border-color: var(--primary);
             box-shadow: 0 0 15px var(--primary-glow);
         }
@@ -483,7 +440,7 @@
 
         /* Footer */
         footer {
-            background: #03060a;
+            background: #020408;
             border-top: 1px solid var(--border);
             padding: 60px 24px 30px;
             position: relative;
@@ -537,10 +494,9 @@
         }
 
         @media (max-width: 768px) {
-            .hero h2 { font-size: 34px; }
+            .hero h2 { font-size: 36px; }
             nav ul { display: none; }
             .legal-content { padding: 24px; }
-            .publisher-card { padding: 24px; }
         }
     </style>
 </head>
@@ -556,17 +512,16 @@
                 <div class="brand-icon">Z</div>
                 <div class="brand-text">
                     <h1>ZingTalk</h1>
-                    <span>Official Portal</span>
+                    <span>Official Platform</span>
                 </div>
             </a>
             <nav>
                 <ul>
                     <li><a href="#about" class="active">Overview</a></li>
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#publisher">Publisher Info</a></li>
-                    <li><a href="#app-ads">app-ads.txt</a></li>
-                    <li><a href="#legal">Legal & Privacy</a></li>
-                    <li><a href="#contact" class="btn-nav">Contact Us</a></li>
+                    <li><a href="#app-ads">Ad Compliance</a></li>
+                    <li><a href="#legal">Privacy & Terms</a></li>
+                    <li><a href="#contact" class="btn-nav">Support</a></li>
                 </ul>
             </nav>
         </div>
@@ -574,101 +529,59 @@
 
     <!-- Hero Section -->
     <section class="hero" id="about">
-        <div class="badge-verified">Official Verified App & Publisher Site</div>
-        <h2>Real-Time Communication Built for <span>TV & Mobile</span></h2>
+        <div class="badge-verified">Next-Gen Real-Time VoIP & Video Ecosystem</div>
+        <h2>Seamless HD Calling Built for <span>Smart TV & Mobile</span></h2>
         <p>
-            ZingTalk delivers crystal-clear 1080p HD video and voice calling, secure real-time messaging, and Alexa Voice AI integration engineered exclusively for Amazon Fire TV, Android TV, and mobile devices.
+            ZingTalk delivers ultra-low latency 1080p HD video calling, crystal-clear voice chat, and instant 10-digit UID connectivity engineered specifically for Amazon Fire TV, Android TV, and mobile devices.
         </p>
 
         <div class="hero-actions">
-            <a href="#publisher" class="btn-primary">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                View Publisher Credentials
+            <a href="#features" class="btn-primary">
+                Explore Platform Features
             </a>
             <a href="#legal" class="btn-secondary">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-                Privacy Policy & Compliance
+                Privacy & Compliance
             </a>
-        </div>
-    </section>
-
-    <!-- Publisher Information (InMobi SSP & Sellers.json Verification) -->
-    <section class="section-container" id="publisher">
-        <div class="publisher-card">
-            <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
-                <div>
-                    <div class="pub-label" style="color: var(--primary);">Developer / Publisher Identity</div>
-                    <h3 style="font-size: 26px; font-weight: 800; color: #fff;">InMobi & Ad Network Verification</h3>
-                </div>
-                <div class="badge-verified" style="margin-bottom: 0;">Sellers.json & InMobi SSP Ready</div>
-            </div>
-
-            <div class="pub-grid">
-                <div class="pub-item">
-                    <div class="pub-label">Publisher / Entity Name</div>
-                    <div class="pub-val">KM Mamata (ZingTalk)</div>
-                </div>
-                <div class="pub-item">
-                    <div class="pub-label">Entity Classification</div>
-                    <div class="pub-val">Individual Publisher</div>
-                </div>
-                <div class="pub-item">
-                    <div class="pub-label">Official Support Email</div>
-                    <div class="pub-val">support.zing.app@gmail.com</div>
-                </div>
-                <div class="pub-item">
-                    <div class="pub-label">Registered City & District</div>
-                    <div class="pub-val">Sikandra Rao, Hathras</div>
-                </div>
-                <div class="pub-item">
-                    <div class="pub-label">State & Country</div>
-                    <div class="pub-val">Uttar Pradesh, India (204215)</div>
-                </div>
-                <div class="pub-item">
-                    <div class="pub-label">Registered Applications</div>
-                    <div class="pub-val">ZingTalk TV & ZingTalk Mobile</div>
-                </div>
-            </div>
         </div>
     </section>
 
     <!-- App Features -->
     <section class="section-container" id="features">
         <div class="section-header">
-            <h3>Engineered for Next-Gen Calling</h3>
-            <p>Built with enterprise WebRTC multi-tier STUN/TURN, responsive TV remotes, and hardware acceleration.</p>
+            <h3>Engineered for High-Performance Calling</h3>
+            <p>Built on enterprise WebRTC architecture with multi-tier STUN/TURN relays and full TV remote navigation.</p>
         </div>
 
         <div class="grid-3">
             <div class="card">
                 <div class="card-icon">📺</div>
                 <h4>Amazon Fire TV Native</h4>
-                <p>Fully compliant with Amazon Fire TV Leanback navigation, D-Pad focus rings, hardware remote controls, and dynamic landscape view.</p>
+                <p>Fully optimized for big screens with Leanback UI, D-Pad focus navigation, remote control shortcuts, and dynamic landscape mode.</p>
             </div>
             <div class="card">
                 <div class="card-icon">📹</div>
-                <h4>1080p HD Video Calling</h4>
-                <p>Sub-second low latency WebRTC peer-to-peer streaming with adaptive bitrate for seamless calling even on bandwidth-constrained networks.</p>
+                <h4>1080p HD Video Streaming</h4>
+                <p>Sub-second peer-to-peer WebRTC media streaming with adaptive bitrate control for smooth calling across all network conditions.</p>
             </div>
             <div class="card">
                 <div class="card-icon">🎙️</div>
-                <h4>Smart Camera Fallback</h4>
-                <p>If no USB camera is detected on the TV, ZingTalk automatically switches to voice calling with clear remote display indicators.</p>
+                <h4>Smart Audio Fallback</h4>
+                <p>Automatically detects hardware capabilities and switches seamlessly to high-definition voice calling if no external USB webcam is connected.</p>
             </div>
             <div class="card">
                 <div class="card-icon">🔒</div>
-                <h4>Zero Call Storing Privacy</h4>
-                <p>Audio and video streams are end-to-end encrypted peer-to-peer and never stored or recorded on any third-party server.</p>
+                <h4>End-to-End Privacy</h4>
+                <p>Zero call recording architecture. All live audio and video streams are encrypted peer-to-peer and never stored on external servers.</p>
             </div>
             <div class="card">
                 <div class="card-icon">⚡</div>
                 <h4>Instant 10-Digit UID</h4>
-                <p>Simple numeric ID dialing system specifically tailored for TV remotes and quick dialing without complicated email typing.</p>
+                <p>Fast numeric ID dialing designed for Smart TV remotes—connect with family and friends globally without complex setup.</p>
             </div>
             <div class="card">
                 <div class="card-icon">🛡️</div>
-                <h4>Ad & SDK Compliance</h4>
-                <p>Adheres strictly to Google Play Families Policy, COPPA, and InMobi programmatic supply guidelines with verified Sellers.json.</p>
+                <h4>Verified Ad Compliance</h4>
+                <p>Strict adherence to COPPA, store safety guidelines, and authorized IAB programmatic advertising standards.</p>
             </div>
         </div>
     </section>
@@ -677,18 +590,18 @@
     <section class="section-container" id="app-ads">
         <div class="section-header">
             <h3>Authorized Digital Sellers (app-ads.txt)</h3>
-            <p>Publishers must host this record on the root domain for InMobi and ad buyers verification.</p>
+            <p>Official programmatic supply verification record for advertising partners and SSP networks.</p>
         </div>
 
-        <div class="card" style="border-color: rgba(0, 180, 216, 0.3);">
+        <div class="card" style="border-color: rgba(0, 229, 188, 0.3);">
             <p style="margin-bottom: 12px; color: var(--text-main); font-weight: 600;">
-                InMobi SSP app-ads.txt Entry:
+                Authorized InMobi SSP Record:
             </p>
             <div class="code-box" id="appAdsCode">inmobi.com, 23b7e42929bc48899057437b4147dab0, DIRECT, 85b49e26341cb483
-<button class="copy-btn" onclick="copyAppAds()">Copy Line</button>
+<button class="copy-btn" onclick="copyAppAds()">Copy Record</button>
             </div>
             <p style="margin-top: 12px; font-size: 13px; color: var(--text-muted);">
-                * This entry links your InMobi Account ID (<strong>23b7e42929bc48899057437b4147dab0</strong>) to your domain for programmatic revenue protection.
+                * Hosted on the root domain `/app-ads.txt` and `/ads.txt` for automated crawler verification.
             </p>
         </div>
     </section>
@@ -696,8 +609,8 @@
     <!-- Legal, Privacy Policy & Terms of Service Tabs -->
     <section class="section-container" id="legal">
         <div class="section-header">
-            <h3>Legal & Compliance Documents</h3>
-            <p>Our commitment to user safety, data privacy, and store policies.</p>
+            <h3>Legal & Compliance Center</h3>
+            <p>Transparency, user data protection, and platform terms of service.</p>
         </div>
 
         <div class="tab-nav">
@@ -710,80 +623,76 @@
         <div id="tab-privacy" class="legal-content active">
             <h3>ZingTalk Privacy Policy</h3>
             <p><strong>Effective Date:</strong> January 1, 2026 | <strong>Last Updated:</strong> November 2026</p>
-            <p>This Privacy Policy explains how ZingTalk ("we", "our", or "us"), owned and published by <strong>KM Mamata</strong>, collects, protects, and handles information across our applications on Amazon Fire TV, Android devices, and web portals.</p>
+            <p>This Privacy Policy describes how <strong>ZingTalk</strong> ("we", "our", or "us") collects, uses, and safeguards user information across our Smart TV and mobile applications.</p>
 
             <h4>1. Information We Collect</h4>
             <ul>
-                <li><strong>User Identity & Credentials:</strong> When you register an account or create a profile, we store your chosen username, email address (for recovery), and an assigned unique 10-digit User ID (UID).</li>
-                <li><strong>Real-Time Signaling:</strong> To establish audio and video connections, session signaling data (SDP offers/answers and ICE candidates) is routed through secure WebSockets.</li>
-                <li><strong>Zero Call Recording:</strong> We do NOT intercept, store, record, or inspect any live audio or video stream. Peer-to-peer streams are encrypted.</li>
+                <li><strong>Account Credentials:</strong> When you create an account, we process your display name, email address, and a randomly generated 10-digit User ID (UID) to route calls.</li>
+                <li><strong>Signaling Metadata:</strong> Temporary session signaling data (SDP offers and ICE candidates) is transmitted over secure WebSockets solely to establish peer-to-peer connections.</li>
+                <li><strong>Zero Media Storage:</strong> We do NOT record, store, or monitor your voice or video calls. All media streams travel directly between connected peers using WebRTC encryption.</li>
             </ul>
 
-            <h4>2. Advertising & Analytics Disclosures (InMobi & Partners)</h4>
-            <p>We work with trusted third-party advertising networks, such as InMobi, to display relevant advertisements within the free tiers of our applications. These partners may collect device identifiers (such as Google Advertising ID or Amazon Fire Advertising ID), IP addresses, and non-sensitive technical data to serve non-intrusive, interest-based or contextual ads in compliance with applicable laws.</p>
+            <h4>2. Advertising & Programmatic Partners</h4>
+            <p>To keep ZingTalk free, we partner with authorized advertising platforms including InMobi. Advertising SDKs may process non-personal device identifiers (such as Amazon Fire Advertising ID or Google Advertising ID), IP addresses, and coarse network diagnostics to deliver contextual and compliant advertisements.</p>
 
-            <h4>3. Children's Privacy (COPPA)</h4>
-            <p>ZingTalk does not knowingly solicit or collect personal information from children under the age of 13. If you believe a minor has registered without parental consent, please contact us immediately for prompt deletion.</p>
+            <h4>3. Children's Privacy & Age Rating (13+)</h4>
+            <p>ZingTalk is intended for users aged 13 and older in strict compliance with COPPA regulations. We do not knowingly collect personal data from children under 13. For data deletion requests, contact our support desk at <strong>support.zing.app@gmail.com</strong>.</p>
 
             <h4>4. Data Security</h4>
-            <p>All server communication is strictly enforced via HTTPS/WSS (TLS 1.3) with encrypted token storage and secure Firebase Authentication.</p>
+            <p>All platform traffic is encrypted via TLS 1.3 (HTTPS/WSS) and authenticated through industry-standard token security.</p>
         </div>
 
         <!-- Terms of Service Content -->
         <div id="tab-terms" class="legal-content">
             <h3>Terms of Service</h3>
             <p><strong>Effective Date:</strong> January 1, 2026</p>
-            <p>By downloading, installing, or accessing ZingTalk on any supported device, you agree to abide by these Terms of Service.</p>
+            <p>By installing or using ZingTalk on Amazon Fire TV, Android TV, or mobile devices, you agree to these Terms of Service.</p>
 
-            <h4>1. Permitted Use</h4>
-            <p>You agree to use ZingTalk solely for lawful personal communication. You agree NOT to transmit harassing, abusive, obscene, or infringing material across the service.</p>
+            <h4>1. Acceptable Use</h4>
+            <p>You agree to use ZingTalk strictly for lawful communication. Harassment, unauthorized automated dialing, or transmission of unlawful content will result in immediate account termination.</p>
 
-            <h4>2. Emergency Services Disclaimer</h4>
-            <p>ZingTalk is a VoIP internet calling application and does NOT replace standard mobile or landline telephony. ZingTalk does NOT provide emergency service calls (such as 911, 112, or 100).</p>
-
-            <h4>3. Service Availability</h4>
-            <p>We strive for 99.9% uptime, but audio/video transmission quality depends on your local Wi-Fi, Ethernet, and ISP speed. We are not liable for transient drops in network signaling.</p>
+            <h4>2. No Emergency Calls</h4>
+            <p>ZingTalk is an internet-based VoIP communication tool and is not a replacement for traditional telephone networks. It does not support emergency calls to law enforcement, medical, or fire services (e.g., 112, 911, 100).</p>
         </div>
 
         <!-- Permissions Content -->
         <div id="tab-permissions" class="legal-content">
-            <h3>Device Permissions & Runtime Transparency</h3>
-            <p>ZingTalk requests strictly necessary hardware permissions solely when initiating or answering a call:</p>
+            <h3>Hardware Permissions Disclosure</h3>
+            <p>ZingTalk requests minimal runtime device permissions strictly required for real-time calling:</p>
             <ul>
-                <li><strong>Camera (`android.permission.CAMERA`):</strong> Used only during active two-way video calls to capture your video feed. It is never accessed in the background.</li>
-                <li><strong>Microphone (`android.permission.RECORD_AUDIO`):</strong> Used only during active voice and video calls to transmit your voice.</li>
-                <li><strong>Notifications (`android.permission.POST_NOTIFICATIONS`):</strong> Used on Android 13+ devices to alert you of incoming calls and display ongoing call status.</li>
-                <li><strong>Internet (`android.permission.INTERNET`):</strong> Mandatory to route secure WebSockets, STUN/TURN packets, and sync contacts.</li>
+                <li><strong>Camera (`android.permission.CAMERA`):</strong> Accessed exclusively during active video calls to stream your camera feed.</li>
+                <li><strong>Microphone (`android.permission.RECORD_AUDIO`):</strong> Accessed exclusively during active calls to transmit audio.</li>
+                <li><strong>Notifications (`android.permission.POST_NOTIFICATIONS`):</strong> Used to alert you of incoming calls.</li>
+                <li><strong>Network (`android.permission.INTERNET`):</strong> Required for WebRTC signaling, media relays, and account synchronization.</li>
             </ul>
         </div>
     </section>
 
-    <!-- Contact & Billing Info Section -->
+    <!-- Contact Section -->
     <section class="section-container" id="contact">
         <div class="section-header">
-            <h3>Contact Official Support</h3>
-            <p>Reach out to our developer and compliance office for inquiries, feedback, or ad inquiries.</p>
+            <h3>Official Support & Inquiries</h3>
+            <p>Dedicated assistance for users, store reviewers, and programmatic advertising partners.</p>
         </div>
 
         <div class="grid-3">
             <div class="card">
                 <div class="card-icon">✉️</div>
-                <h4>Official Support Desk</h4>
-                <p>For account issues, bug reports, and publisher verification:</p>
-                <p style="margin-top: 10px; font-weight: 700; color: var(--primary);">support.zing.app@gmail.com</p>
+                <h4>Official Support & Business Desk</h4>
+                <p>For technical support, account inquiries, and ad network verification:</p>
+                <p style="margin-top: 12px; font-weight: 700; color: var(--primary); font-size: 15px;">support.zing.app@gmail.com</p>
             </div>
             <div class="card">
-                <div class="card-icon">🏢</div>
-                <h4>Registered Publisher Office</h4>
-                <p>KM Mamata (ZingTalk Developer Group)</p>
-                <p style="margin-top: 6px; color: var(--text-muted);">Mahal Darwaja, Sikandra Rao (Hathras),</p>
-                <p style="color: var(--text-muted);">Uttar Pradesh, India - PIN 204215</p>
+                <div class="card-icon">🌐</div>
+                <h4>Supported Ecosystems</h4>
+                <p>Available for Amazon Fire TV Stick, Fire TV Cube, Smart TVs, and Android Smartphones.</p>
+                <p style="margin-top: 12px; font-weight: 600; color: #38bdf8;">App Bundle: com.zingtalktv.com</p>
             </div>
             <div class="card">
-                <div class="card-icon">⚖️</div>
-                <h4>Ad Network & Legal Inquiries</h4>
-                <p>For InMobi supply chain verification, Sellers.json, and privacy questions:</p>
-                <p style="margin-top: 10px; font-weight: 600; color: #38bdf8;">compliance.zingtalk@gmail.com</p>
+                <div class="card-icon">🛡️</div>
+                <h4>Privacy & Data Requests</h4>
+                <p>For user data deletion requests, privacy inquiries, and compliance verification:</p>
+                <p style="margin-top: 12px; font-weight: 700; color: var(--primary); font-size: 15px;">support.zing.app@gmail.com</p>
             </div>
         </div>
     </section>
@@ -799,39 +708,36 @@
                     </div>
                 </div>
                 <p style="font-size: 13px; color: var(--text-muted); line-height: 1.6;">
-                    Premier real-time VoIP & Video Calling platform for Amazon Fire TV, Android TV, and Mobile.
+                    Next-generation HD Video & Voice Calling platform built for Connected TV and Mobile devices.
                 </p>
             </div>
             <div class="footer-col">
                 <h5>Platform</h5>
                 <ul>
-                    <li><a href="#features">Fire TV App</a></li>
-                    <li><a href="#features">Android Mobile App</a></li>
-                    <li><a href="#publisher">Publisher Verification</a></li>
-                    <li><a href="#app-ads">app-ads.txt Direct</a></li>
+                    <li><a href="#features">Fire TV Edition</a></li>
+                    <li><a href="#features">Mobile Edition</a></li>
+                    <li><a href="#app-ads">app-ads.txt Verification</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h5>Compliance</h5>
+                <h5>Legal</h5>
                 <ul>
                     <li><a href="#legal" onclick="showTab('privacy')">Privacy Policy</a></li>
                     <li><a href="#legal" onclick="showTab('terms')">Terms of Service</a></li>
                     <li><a href="#legal" onclick="showTab('permissions')">Permissions Disclosure</a></li>
-                    <li><a href="#publisher">Sellers.json Information</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h5>Publisher Details</h5>
-                <p style="font-size: 13px; color: var(--text-muted);">
-                    <strong>Owner:</strong> KM Mamata<br>
-                    <strong>Location:</strong> Hathras, Uttar Pradesh, India<br>
-                    <strong>Email:</strong> support.zing.app@gmail.com
+                <h5>Official Contact</h5>
+                <p style="font-size: 13px; color: var(--text-muted); line-height: 1.8;">
+                    <strong>Support & Business Email:</strong><br>
+                    <span style="color: var(--primary); font-weight: 600;">support.zing.app@gmail.com</span>
                 </p>
             </div>
         </div>
 
         <div class="footer-bottom">
-            &copy; 2026 ZingTalk (KM Mamata). All Rights Reserved. Built and verified for InMobi SSP and Amazon Appstore.
+            &copy; 2026 ZingTalk Official. All Rights Reserved.
         </div>
     </footer>
 
