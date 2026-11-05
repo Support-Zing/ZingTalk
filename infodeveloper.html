@@ -272,7 +272,7 @@
         .section-container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 50px 24px 80px;
+            padding: 70px 24px 80px;
             position: relative;
             z-index: 1;
         }
@@ -324,7 +324,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 24px;
             margin-bottom: 20px;
             border: 1px solid rgba(0, 229, 188, 0.25);
         }
@@ -339,39 +338,6 @@
             color: var(--text-muted);
             font-size: 14px;
             line-height: 1.7;
-        }
-
-        /* Code / App-Ads.txt Box */
-        .code-box {
-            background: #03050a;
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 20px;
-            position: relative;
-            font-family: monospace;
-            font-size: 13px;
-            color: #38bdf8;
-            margin-top: 16px;
-            overflow-x: auto;
-        }
-
-        .copy-btn {
-            position: absolute;
-            top: 12px;
-            right: 12px;
-            background: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            border: 1px solid var(--border);
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 11px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .copy-btn:hover {
-            background: var(--primary);
-            color: #050811;
         }
 
         /* Legal Tabs & Content */
@@ -519,9 +485,8 @@
                 <ul>
                     <li><a href="#about" class="active">Overview</a></li>
                     <li><a href="#features">Features</a></li>
-                    <li><a href="#app-ads">Ad Compliance</a></li>
                     <li><a href="#legal">Privacy & Terms</a></li>
-                    <li><a href="#contact" class="btn-nav">Support</a></li>
+                    <li><a href="#contact" class="btn-nav">Support & Business</a></li>
                 </ul>
             </nav>
         </div>
@@ -554,55 +519,47 @@
 
         <div class="grid-3">
             <div class="card">
-                <div class="card-icon">📺</div>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"/><polyline points="17 2 12 7 7 2"/></svg>
+                </div>
                 <h4>Amazon Fire TV Native</h4>
                 <p>Fully optimized for big screens with Leanback UI, D-Pad focus navigation, remote control shortcuts, and dynamic landscape mode.</p>
             </div>
             <div class="card">
-                <div class="card-icon">📹</div>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                </div>
                 <h4>1080p HD Video Streaming</h4>
                 <p>Sub-second peer-to-peer WebRTC media streaming with adaptive bitrate control for smooth calling across all network conditions.</p>
             </div>
             <div class="card">
-                <div class="card-icon">🎙️</div>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                </div>
                 <h4>Smart Audio Fallback</h4>
                 <p>Automatically detects hardware capabilities and switches seamlessly to high-definition voice calling if no external USB webcam is connected.</p>
             </div>
             <div class="card">
-                <div class="card-icon">🔒</div>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                </div>
                 <h4>End-to-End Privacy</h4>
                 <p>Zero call recording architecture. All live audio and video streams are encrypted peer-to-peer and never stored on external servers.</p>
             </div>
             <div class="card">
-                <div class="card-icon">⚡</div>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
                 <h4>Instant 10-Digit UID</h4>
                 <p>Fast numeric ID dialing designed for Smart TV remotes—connect with family and friends globally without complex setup.</p>
             </div>
             <div class="card">
-                <div class="card-icon">🛡️</div>
-                <h4>Verified Ad Compliance</h4>
-                <p>Strict adherence to COPPA, store safety guidelines, and authorized IAB programmatic advertising standards.</p>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <h4>Verified Safety & Compliance</h4>
+                <p>Strict adherence to COPPA, store safety guidelines, and global digital privacy standards for a secure user experience.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- InMobi app-ads.txt Section -->
-    <section class="section-container" id="app-ads">
-        <div class="section-header">
-            <h3>Authorized Digital Sellers (app-ads.txt)</h3>
-            <p>Official programmatic supply verification record for advertising partners and SSP networks.</p>
-        </div>
-
-        <div class="card" style="border-color: rgba(0, 229, 188, 0.3);">
-            <p style="margin-bottom: 12px; color: var(--text-main); font-weight: 600;">
-                Authorized InMobi SSP Record:
-            </p>
-            <div class="code-box" id="appAdsCode">inmobi.com, 23b7e42929bc48899057437b4147dab0, DIRECT, 85b49e26341cb483
-<button class="copy-btn" onclick="copyAppAds()">Copy Record</button>
-            </div>
-            <p style="margin-top: 12px; font-size: 13px; color: var(--text-muted);">
-                * Hosted on the root domain `/app-ads.txt` and `/ads.txt` for automated crawler verification.
-            </p>
         </div>
     </section>
 
@@ -633,7 +590,7 @@
             </ul>
 
             <h4>2. Advertising & Programmatic Partners</h4>
-            <p>To keep ZingTalk free, we partner with authorized advertising platforms including InMobi. Advertising SDKs may process non-personal device identifiers (such as Amazon Fire Advertising ID or Google Advertising ID), IP addresses, and coarse network diagnostics to deliver contextual and compliant advertisements.</p>
+            <p>To keep ZingTalk free, we work with authorized global advertising partners. Advertising SDKs may process non-personal device identifiers (such as Amazon Fire Advertising ID or Google Advertising ID), IP addresses, and coarse network diagnostics to deliver contextual and compliant advertisements.</p>
 
             <h4>3. Children's Privacy & Age Rating (13+)</h4>
             <p>ZingTalk is intended for users aged 13 and older in strict compliance with COPPA regulations. We do not knowingly collect personal data from children under 13. For data deletion requests, contact our support desk at <strong>support.zing.app@gmail.com</strong>.</p>
@@ -671,27 +628,33 @@
     <!-- Contact Section -->
     <section class="section-container" id="contact">
         <div class="section-header">
-            <h3>Official Support & Inquiries</h3>
-            <p>Dedicated assistance for users, store reviewers, and programmatic advertising partners.</p>
+            <h3>Official Support & Business Inquiries</h3>
+            <p>Dedicated assistance for users, business partners, and compliance inquiries.</p>
         </div>
 
         <div class="grid-3">
             <div class="card">
-                <div class="card-icon">✉️</div>
-                <h4>Official Support & Business Desk</h4>
-                <p>For technical support, account inquiries, and ad network verification:</p>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <h4>Customer Support Desk</h4>
+                <p>For technical support, account help, and general user assistance:</p>
                 <p style="margin-top: 12px; font-weight: 700; color: var(--primary); font-size: 15px;">support.zing.app@gmail.com</p>
             </div>
             <div class="card">
-                <div class="card-icon">🌐</div>
-                <h4>Supported Ecosystems</h4>
-                <p>Available for Amazon Fire TV Stick, Fire TV Cube, Smart TVs, and Android Smartphones.</p>
-                <p style="margin-top: 12px; font-weight: 600; color: #38bdf8;">App Bundle: com.zingtalktv.com</p>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                </div>
+                <h4>Business & Partnerships</h4>
+                <p>For business inquiries, advertising partnerships, and official verification:</p>
+                <p style="margin-top: 12px; font-weight: 700; color: var(--primary); font-size: 15px;">support.zing.app@gmail.com</p>
             </div>
             <div class="card">
-                <div class="card-icon">🛡️</div>
+                <div class="card-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
                 <h4>Privacy & Data Requests</h4>
-                <p>For user data deletion requests, privacy inquiries, and compliance verification:</p>
+                <p>For user data deletion requests, privacy inquiries, and legal compliance:</p>
                 <p style="margin-top: 12px; font-weight: 700; color: var(--primary); font-size: 15px;">support.zing.app@gmail.com</p>
             </div>
         </div>
@@ -716,7 +679,7 @@
                 <ul>
                     <li><a href="#features">Fire TV Edition</a></li>
                     <li><a href="#features">Mobile Edition</a></li>
-                    <li><a href="#app-ads">app-ads.txt Verification</a></li>
+                    <li><a href="#contact">Supported Devices</a></li>
                 </ul>
             </div>
             <div class="footer-col">
@@ -730,7 +693,7 @@
             <div class="footer-col">
                 <h5>Official Contact</h5>
                 <p style="font-size: 13px; color: var(--text-muted); line-height: 1.8;">
-                    <strong>Support & Business Email:</strong><br>
+                    <strong>Support & Business Inquiries:</strong><br>
                     <span style="color: var(--primary); font-weight: 600;">support.zing.app@gmail.com</span>
                 </p>
             </div>
@@ -751,16 +714,6 @@
 
             const targetContent = document.getElementById('tab-' + tabName);
             if (targetContent) targetContent.classList.add('active');
-        }
-
-        function copyAppAds() {
-            const text = "inmobi.com, 23b7e42929bc48899057437b4147dab0, DIRECT, 85b49e26341cb483";
-            navigator.clipboard.writeText(text).then(() => {
-                const btn = document.querySelector('.copy-btn');
-                const orig = btn.textContent;
-                btn.textContent = "Copied!";
-                setTimeout(() => btn.textContent = orig, 2000);
-            });
         }
     </script>
 </body>
